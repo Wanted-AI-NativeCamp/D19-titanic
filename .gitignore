@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+# 이전 디자인 백업
+_backup_*/
+
+# 이전 HTML 산출물 (분석 방법 소개 07단계가 읽는 chart/ 폴더는 남긴다)
+index_final.html
+index_b.html
+D19_1109.html
+
+# 수업 자료와 시안 이미지
+자료실/
+image/
