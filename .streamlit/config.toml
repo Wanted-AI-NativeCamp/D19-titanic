@@ -1,0 +1,25 @@
+# Ocean Archive 디자인 (md/design.md): 딥 네이비 배경 + 흰 콘텐츠 카드. 라이트/다크 구분 없이 한 가지 모습.
+# 브라우저에 저장된 테마 선택(Light/Dark/System)이 무엇이든 같게 나오도록 light·dark 에 같은 값을 둔다.
+#
+# 폰트: Streamlit 은 font / headingFont / codeFont 에 폰트를 "하나씩만" 받는다 (여러 개를 쉼표로 넣으면 오류).
+#   본문 Noto Sans KR, 제목 Playfair Display, 코드 JetBrains Mono. 영문 숫자용 Inter 는 common.py 의 CSS 에서 불러온다.
+
+[theme]
+baseRadius = "medium"
+buttonRadius = "full"
+headingFontWeights = 600
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+headingFont = "Playfair Display:https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
+codeFont = "JetBrains Mono:https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+
+[theme.light]
+primaryColor = "#FFFFFF"
+backgroundColor = "#061c29"
+secondaryBackgroundColor = "#04151f"
+textColor = "#FFFFFF"
+
+[theme.dark]
+primaryColor = "#FFFFFF"
+backgroundColor = "#061c29"
+secondaryBackgroundColor = "#04151f"
+textColor = "#FFFFFF"
